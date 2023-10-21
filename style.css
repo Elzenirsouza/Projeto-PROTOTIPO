@@ -1,0 +1,175 @@
+.group-3,
+.group-3 * {
+  box-sizing: border-box;
+}
+.group-3 {
+  width: 246px;
+  height: 420px;
+  position: absolute;
+  margin-top: 5%;
+  
+}
+.rectangle-1 {
+  background: #d2c6cd;
+  width: 246px;
+  height: 420px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 200%;
+}
+
+.campo-inserir-informa-o {
+  background: linear-gradient(
+      to left,
+      rgba(236, 55, 55, 0.2),
+      rgba(236, 55, 55, 0.2)
+    ),
+    linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 5px;
+  width: 190px;
+  height: 25px;
+  position: absolute;
+  z-index: 2;
+  left: calc(50% - 190px/2); 
+  top: calc(50% - 30px/2); 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 200%;
+  margin-top: 24%;
+}
+
+.campo-inserir-senha {
+  background: linear-gradient(
+      to left,
+      rgba(236, 65, 65, 0.2),
+      rgba(236, 65, 65, 0.2)
+    ),
+    linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 5px;
+  width: 190px;
+  height: 25px;
+  position: absolute;
+  z-index: 3;
+  left: 0; 
+  top: 0;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 212%;
+  margin-top: 120%;
+}
+
+.but-o {
+  background: linear-gradient(
+      to left,
+      rgba(255, 65, 65, 0.2),
+      rgba(255, 65, 65, 0.2)
+    ),
+    linear-gradient(to left, #d9d9d9, #dedede);
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(
+    180deg,
+    rgba(125, 34, 184, 0.5) 0%,
+    rgba(198, 44, 106, 0.5) 48.95833432674408%,
+    rgba(221, 142, 64, 0.5) 100%
+  );
+  border-image-slice: 1;
+  width: 125px;
+  height: 30px;
+  position: absolute;
+  z-index: 4;
+  left: cal(37% - 100px);
+  top: cal(36% - 100px);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 224%;
+  margin-bottom: 100%;
+  margin-top: 150%;
+}
+
+.group-1 {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  overflow: visible;
+  margin-left: 287%;
+  margin-top: 5%;
+}
+
+.perfil {
+  background: #7d10b7;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(
+    180deg,
+    rgba(125, 34, 184, 1) 0%,
+    rgba(196, 36, 109, 1) 46.35416567325592%,
+    rgba(220, 139, 66, 1) 100%
+  );
+  border-image-slice: 1;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  z-index: 6;
+  left:0;
+  top: 0;
+  margin-left: 205%;
+  margin-top: 5%;
+  
+}
+.group-2 {
+  position: absolute;
+  z-index: 7;
+  width: 27%;
+  height: 27%;
+  left: 0;
+  top: 0;
+  overflow: visible;
+  margin-left: 238%;
+  margin-top: 40%;
+}
+
+.User_or_Email {
+  color: #908e8e;
+  text-align: left;
+  font: 400 10px "Lilita One", sans-serif;
+  position: absolute;
+  z-index: 8;
+  left: 0;
+  top: 0;
+  margin-left: 232%;
+  margin-top: 106%;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.password {
+  color: #908e8e;
+  text-align: left;
+  font: 400 10px "Lilita One", sans-serif;
+  position: absolute;
+  z-index: 9;
+  left: -80px;
+  top: 61px;
+  margin-left: 269%;
+  margin-top: 98%;
+  font-weight: bold;
+  font-size: 13px;
+}
+.submit {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font: 400 12px "Lilita One", sans-serif;
+  position: absolute;
+  z-index: 10;
+  left: -76px;
+  top: 139px;
+  margin-left: 270%;
+  margin-top: 96%;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: italic;
+}
